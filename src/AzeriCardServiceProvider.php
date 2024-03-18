@@ -17,9 +17,11 @@ class AzeriCardServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__ . '/../config/azericard.php', 'azericard');
 
-        $this->publishes([
-            __DIR__ . '/../config/azericard.php' => config_path('azericard.php'),
-        ], 'config');
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__ . '/../config/azericard.php' => config_path('azericard.php'),
+            ], 'config');
+        }
     }
 
     /**
