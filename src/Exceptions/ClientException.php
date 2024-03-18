@@ -1,6 +1,6 @@
 <?php
 
-namespace ArifAbdd\Azericard\Exceptions;
+namespace Arifabdd\Azericard\Exceptions;
 
 class ClientException extends \RuntimeException
 {

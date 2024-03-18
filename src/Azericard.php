@@ -1,12 +1,12 @@
 <?php
 
-namespace ArifAbdd\Azericard;
+namespace Arifabdd\Azericard;
 
-use ArifAbdd\Azericard\Contracts\ClientContract;
-use ArifAbdd\Azericard\Contracts\SignatureGeneratorContract;
-use ArifAbdd\Azericard\Exceptions\FailedTransactionException;
-use ArifAbdd\Azericard\Exceptions\SignatureDoesNotMatchException;
-use ArifAbdd\Azericard\Exceptions\ValidationException;
+use Arifabdd\Azericard\Contracts\ClientContract;
+use Arifabdd\Azericard\Contracts\SignatureGeneratorContract;
+use Arifabdd\Azericard\Exceptions\FailedTransactionException;
+use Arifabdd\Azericard\Exceptions\SignatureDoesNotMatchException;
+use Arifabdd\Azericard\Exceptions\ValidationException;
 use Illuminate\Support\Traits\Conditionable;
 
 class Azericard

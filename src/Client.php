@@ -1,9 +1,9 @@
 <?php
 
-namespace ArifAbdd\Azericard;
+namespace Arifabdd\Azericard;
 
-use ArifAbdd\Azericard\Contracts\ClientContract;
-use ArifAbdd\Azericard\Exceptions\ClientException;
+use Arifabdd\Azericard\Contracts\ClientContract;
+use Arifabdd\Azericard\Exceptions\ClientException;
 use Illuminate\Support\Facades\Http;
 
 class Client implements ClientContract

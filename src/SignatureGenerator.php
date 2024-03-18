@@ -1,9 +1,9 @@
 <?php
 
-namespace ArifAbdd\Azericard;
+namespace Arifabdd\Azericard;
 
 
-use ArifAbdd\Azericard\Contracts\SignatureGeneratorContract;
+use Arifabdd\Azericard\Contracts\SignatureGeneratorContract;
 
 class SignatureGenerator implements SignatureGeneratorContract
 {

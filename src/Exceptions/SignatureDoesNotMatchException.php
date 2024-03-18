@@ -1,8 +1,8 @@
 <?php
 
-namespace ArifAbdd\Azericard\Exceptions;
+namespace Arifabdd\Azericard\Exceptions;
 
-use ArifAbdd\Azericard\Exceptions\AzericardException;
+use Arifabdd\Azericard\Exceptions\AzericardException;
 
 class SignatureDoesNotMatchException extends AzericardException
 {

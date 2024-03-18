@@ -1,7 +1,7 @@
 <?php
 
-use ArifAbdd\Azericard\SignatureGenerator;
-use ArifAbdd\Azericard\Options;
+use Arifabdd\Azericard\SignatureGenerator;
+use Arifabdd\Azericard\Options;
 
 return [
     //test mode

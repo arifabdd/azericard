@@ -1,6 +1,6 @@
 <?php
 
-namespace ArifAbdd\Azericard;
+namespace Arifabdd\Azericard;
 
 use Illuminate\Support\Str;
 

@@ -24,7 +24,7 @@
     "autoload-dev": {
         "psr-4": {
             "App\\": "app/",
-            "ArifAbdd\\Azericard\\": "packages/arifabdd/azericard/src/"
+            "Arifabdd\\Azericard\\": "packages/arifabdd/azericard/src/"
         }
     }
 }
