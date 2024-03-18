@@ -1,13 +1,9 @@
 <?php
 
-namespace ArifAbdd\Azericard\Providers;
+namespace ArifAbdd\Azericard;
 
-use ArifAbdd\Azericard\Azericard;
-use ArifAbdd\Azericard\Client;
 use ArifAbdd\Azericard\Contracts\ClientContract;
 use ArifAbdd\Azericard\Contracts\SignatureGeneratorContract;
-use ArifAbdd\Azericard\Options;
-use ArifAbdd\Azericard\SignatureGenerator;
 use Illuminate\Support\ServiceProvider;
 
 class AzeriCardServiceProvider extends ServiceProvider
