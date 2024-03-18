@@ -26,5 +26,12 @@
             "App\\": "app/",
             "ArifAbdd\\Azericard\\": "packages/arifabdd/azericard/src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arifabdd\\Azericard\\AzeriCardServiceProvider"
+            ]
+        }
     }
 }
