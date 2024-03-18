@@ -170,7 +170,7 @@ class Azericard
                     $request,
                     Options::COMPLETE_ORDER_SIGN_PARAMS
                 ),
-                signature: $request[Options::P_SIGN]
+                signature: hex2bin($request[Options::P_SIGN])
             ),
             SignatureDoesNotMatchException::class
         );
