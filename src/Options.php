@@ -27,6 +27,7 @@ class Options
     public const RRN = "RRN";
     public const INT_REF = "INT_REF";
     public const P_SIGN = "P_SIGN";
+    public const APPROVAL = "APPROVAL";
 
 
     public const CREATED_AT = "created_at";
@@ -56,12 +57,13 @@ class Options
 
     public const COMPLETE_ORDER_SIGN_PARAMS = [
         self::AMOUNT,
-        self::CURRENCY,
+//        self::CURRENCY,
         self::TERMINAL,
-        self::TRTYPE,
-        self::ORDER,
+//        self::TRTYPE,
+//        self::ORDER,
         self::RRN,
         self::INT_REF,
+        self::APPROVAL,
     ];
 
     public const REFUND_ORDER_SIGN_PARAMS = self::COMPLETE_ORDER_SIGN_PARAMS;
