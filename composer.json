@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arifabdd\\Azericard\\AzeriCardServiceProvider"
+                "ArifAbdd\\Azericard\\AzeriCardServiceProvider"
             ]
         }
     }
